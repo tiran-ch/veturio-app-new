@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+.registration-input-field button {
+    font-family: 'Helvetica Neue', sans-serif;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #126CF0;
+}
+
+.navbar-expand-lg {
+    width: 60%;
+    margin: auto;
+}
+
+.home-page-header-img {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 32.97%, rgba(217, 217, 217, 0) 64.62%, rgba(0, 0, 0, 0) 64.62%),
+    url("images/patrick-robert-doyle.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 440px;
+    background-size: cover;
+    position: relative;
+}
+
+
+.header-img-cover {
+    width: 80%;
+}
+
+.header-img-cover div h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.header-img-cover div p {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.header-img-cover div button {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.navbar-toggler-image {
+    border-color: #ffffff;
+}
+
+.preferred-place {
+    max-width: 100%;
+    height: 68px;
+    border: 1px solid #126CF0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background: white;
+    position: absolute;
+    bottom: -32px;
+    left: 220px;
+    right: 220px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .preferred-place {
+        left: 110px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .preferred-place {
+        left: 55px;
+
+    }
+}
+
+.preferred-place div{
+    display: flex;
+    align-items: center;
+
+}
